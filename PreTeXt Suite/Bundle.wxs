@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Bundle Name="PreTeXt Suite" Version="0.1.0" Manufacturer="PreTeXt" UpgradeCode="48e03dc0-ab40-4a56-b3a7-8c776b5d8df5">
+    <BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.RtfLicense" />
+
+    <Chain>
+      <MsiPackage
+        SourceFile="../../xsltproc/xsltproc/bin/Debug/xsltproc.msi"
+        EnableFeatureSelection="yes"/>
+      <ExePackage
+        SourceFile="Miniconda3-latest-Windows-x86_64.exe"
+        DetectCondition="ExeDetectedVariable"
+        InstallCommand="/InstallationType=JustMe /AddToPath=1 /RegisterPython=0 /S /D=%LOCALAPPDATA%\PreTeXt\Tools\Continuum\Miniconda"
+        RepairCommand="/q ACTION=Repair /hideconsole"
+        UninstallCommand="/q ACTION=Uninstall /hideconsole" />
+    </Chain>
+  </Bundle>
+</Wix>

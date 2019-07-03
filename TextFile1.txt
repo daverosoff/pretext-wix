@@ -1,0 +1,12 @@
+<ExePackage
+        SourceFile="miktexsetup.exe"
+        DetectCondition="ExeDetectedVariable"
+        InstallCommand="--shared=no --modify-path=no --quiet --user-install "
+        RepairCommand="/q ACTION=Repair /hideconsole"
+        UninstallCommand="/q ACTION=Uninstall /hideconsole" />
+<ExePackage
+        SourceFile="Git-2.22.0-64-bit.exe"
+        DetectCondition="ExeDetectedVariable"
+        InstallCommand="/q ACTION=Install /verysilent /passive"
+        RepairCommand="/q ACTION=Repair /hideconsole"
+        UninstallCommand="/q ACTION=Uninstall /hideconsole" />
