@@ -10,9 +10,9 @@
       <ExePackage
         SourceFile="Miniconda3-latest-Windows-x86_64.exe"
         DetectCondition="ExeDetectedVariable"
-        InstallCommand="/InstallationType=JustMe /AddToPath=1 /RegisterPython=0 /S /D=%LOCALAPPDATA%\PreTeXt\Tools\Continuum\Miniconda"
-        RepairCommand="/q ACTION=Repair /hideconsole"
-        UninstallCommand="/q ACTION=Uninstall /hideconsole" />
+        InstallCommand="/InstallationType=JustMe /AddToPath=1 /RegisterPython=0 /S /D=%LOCALAPPDATA%\PreTeXt\Tools\Miniconda"
+        />
     </Chain>
   </Bundle>
 </Wix>
+⌈
