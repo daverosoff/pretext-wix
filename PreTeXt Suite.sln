@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "PreTeXt Suite", "PreTeXt Suite\PreTeXt Suite.wixproj", "{860CFF4E-428E-4E88-B3B4-F876D3F4BAC2}"
 EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "xsltproc", "xsltproc\xsltproc\xsltproc.wixproj", "{AC3D255A-295D-46A7-8F29-BBCDB819E7AD}"
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "xsltproc", "..\xsltproc\xsltproc\xsltproc.wixproj", "{AC3D255A-295D-46A7-8F29-BBCDB819E7AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
