@@ -1,7 +1,7 @@
 <ExePackage
         SourceFile="miktexsetup.exe"
         DetectCondition="ExeDetectedVariable"
-        InstallCommand="--shared=no --modify-path=no --quiet --user-install "
+        InstallCommand="--shared=no --modify-path=yes --quiet --user-install='C:\Program Files (x86)\PreText\ install"
         RepairCommand="/q ACTION=Repair /hideconsole"
         UninstallCommand="/q ACTION=Uninstall /hideconsole" />
 <ExePackage
